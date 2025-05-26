@@ -7,7 +7,7 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.stats.diagnostic import acorr_ljungbox
 
 # --- Page Configuration ---
-st.set_page_config(layout="wide", page_title="Time Series Hypothesis Tester")
+st.set_page_config(layout="wide", page_title="Hypothesis Tester")
 
 # --- Hardcoded Data Generation Parameters ---
 N_POINTS = 150  # Fixed number of data points
