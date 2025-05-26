@@ -66,11 +66,9 @@ def init_session_state():
 init_session_state() # Ensure data is loaded initially and session variables are set
 
 # --- Main Application ---
-st.title("🔬 Time Series Hypothesis Tester")
+st.title("🔬 Hypothesis Tester")
 st.markdown("""
-This interface allows you to apply common hypothesis tests to pre-generated sample time series data.
-The data (Series 1: AR(1) process, Series 2: White Noise) is generated automatically with fixed characteristics.
-You can regenerate new samples using the button in the sidebar. Select a test using the buttons below the plot.
+This interface allows you to apply common hypothesis tests to datasets by selecting a test using the buttons below the plot.
 """)
 
 # --- Sidebar for Controls ---
