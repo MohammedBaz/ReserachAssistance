@@ -248,4 +248,4 @@ else:
     st.info("Select a test from the buttons above to view its results.")
 
 st.sidebar.markdown("---")
-st.sidebar.info("This app uses predefined data generation. Click 'Regenerate' for new samples.")
+#st.sidebar.info("This app uses predefined data generation. Click 'Regenerate' for new samples.")
